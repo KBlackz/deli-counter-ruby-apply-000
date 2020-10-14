@@ -44,6 +44,7 @@ now_serving(katz_deli)
      
      def take_a_number(array, name)
      array.push(name)
-     postison
+     postion = array.index(name)
+     puts "Welcome #{name}. Tou are number #{array.index(name)+1} in line "
     
     
