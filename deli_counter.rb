@@ -16,10 +16,10 @@ end
 
 
 
-def take_a_number(array, name)
-  array.push(name)
-  position = array.index(name)
-  puts "Welcome, #{name}. You are number #{array.index(name)+1} in line."
+def take_a_number(katz_deli, name)
+  katz_deli.push(name)
+  position = katz_deli.index(name)
+  puts "Welcome, #{name}. You are number #{katz_deli.index(name)+1} in line."
   return name, position 
 end 
 
